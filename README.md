@@ -11,6 +11,10 @@ Get started:
 
 Or browser to <http://localhost:9292> by hand.
 
+Note that we use a `templates` and a `views` directory. *You don't
+have to.* By default the views and templates will live in the `views`
+directory together.
+
 Enjoy.
 
 Chris Wanstrath :: chris@ozmm.org
