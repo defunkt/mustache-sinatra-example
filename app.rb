@@ -8,6 +8,7 @@ class App < Sinatra::Base
   set :mustaches, 'views/'
 
   get '/' do
+    @title = "Mustache + Sinatra = Wonder"
     mustache :index
   end
 
