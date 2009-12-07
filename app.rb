@@ -3,6 +3,7 @@ require 'mustache/sinatra'
 
 class App < Sinatra::Base
   register Mustache::Sinatra
+  require 'views/layout'
 
   set :views,     'templates/'
   set :mustaches, 'views/'
