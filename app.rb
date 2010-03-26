@@ -5,8 +5,10 @@ class App < Sinatra::Base
   register Mustache::Sinatra
   require 'views/layout'
 
-  set :views,     'templates/'
-  set :mustaches, 'views/'
+  set :mustache, {
+    :views     => 'views/',
+    :templates => 'templates/'
+  }
 
   get '/' do
     @title = "Mustache + Sinatra = Wonder"
