@@ -4,7 +4,7 @@ A Mustache Sinatra Example
 Get started:
 
     $ gem install mustache sinatra
-   $ git clone git://github.com/defunkt/mustache-sinatra-example.git
+    $ git clone git://github.com/defunkt/mustache-sinatra-example.git
     $ cd mustache-sinatra-example
     $ rackup config.ru
     $ open http://localhost:9292
