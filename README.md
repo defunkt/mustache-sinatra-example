@@ -4,7 +4,7 @@ A Mustache Sinatra Example
 Get started:
 
     $ gem install mustache sinatra
-    $ git clone git://github.com/defunkt/mustache-sinatra-example.git
+    $ git clone git://github.com/licensetoil/mustache-sinatra-example.git
     $ cd mustache-sinatra-example
     $ rackup config.ru
     $ open http://localhost:9292
@@ -19,6 +19,7 @@ directory together.
 
 * Sinatra 1.0
 * Mustache 0.9.0
+* Haml 3.0.25
 
 Enjoy.
 

@@ -1,14 +1,12 @@
-<h1>{{title}}</h1>
+%h1 {{title}}
 
-<p>{{content}}</p>
+%p
+  {{content}}
 
-<ul>
-  <li>
-    <a href="/other">The Other Page</a>
-  </li>
-  <li>
-    <a href="/nolayout">A Page Without a Layout</a>
-  </li>
-</ul>
+%ul
+  %li
+    %a{:href => "/other"} The Other Page
+  %li
+    %a{:href => "/nolayout"} A Page Without a Layout
 
 {{> partial}}

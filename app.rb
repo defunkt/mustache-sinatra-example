@@ -12,15 +12,15 @@ class App < Sinatra::Base
 
   get '/' do
     @title = "Mustache + Sinatra = Wonder"
-    mustache :index
+    hamlbar :index
   end
 
   get '/other' do
-    mustache :other
+    hamlbar :other
   end
 
   get '/nolayout' do
     content_type 'text/plain'
-    mustache :nolayout, :layout => false
+    hamlbar :nolayout, :layout => false
   end
 end
