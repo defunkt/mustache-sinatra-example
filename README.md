@@ -3,7 +3,7 @@ A Mustache Sinatra Example
 
 Get started:
 
-    $ git clone http://github.com/defunkt/mustache-sinatra-example
+    $ git clone http://github.com/defunkt/mustache-sinatra-example.git
     $ cd mustache-sinatra-example
     $ gem install bundler
     $ bundle install
